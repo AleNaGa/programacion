@@ -113,16 +113,16 @@ public class Refuerzo {
         System.out.println("\n Ejercicio 7");
         System.out.print("Dame un número entero: ");
         int numPrim = scan.nextInt();
-        boolean isItPrime = true;
+        boolean esPrimo = true;
 
         if (numPrim <= 1) {
-            isItPrime = false;
+            esPrimo = false;
 
         }
         else {
             for (int i = 2; i < numPrim; i++) {
                 if ((numPrim % i) == 0) {
-                    isItPrime = false;
+                    esPrimo = false;
 
                     break;
                 }
@@ -130,7 +130,12 @@ public class Refuerzo {
 
 
         }
-        System.out.println(isItPrime);
+        if (esPrimo){
+            System.out.println("ES PRIMO!");
+        }
+        else{
+            System.out.println("No es primo...");
+        }
     }
 
 }
