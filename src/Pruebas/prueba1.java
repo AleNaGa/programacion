@@ -14,32 +14,10 @@ public class prueba1 {
 
         Random rng = new Random();
 
-        System.out.print("Ingrese el número 1: ");
-        int ej23num1 = scan.nextInt();
-        System.out.print("Ingrese el número 2: ");
-        int ej23num2 = scan.nextInt();
-        System.out.print("Ingrese el número 3: ");
-        int ej23num3 = scan.nextInt();
-        int tmp = 0;
 
-        if (ej23num1 > ej23num2){
-            tmp = ej23num1;
-            ej23num1 = ej23num2;
-            ej23num2 = tmp;
+        int numEj24 = scan.nextInt();
+        for (int i= 2; i<=numEj24*2; i+=2){
+            System.out.println(i);
         }
-        if (ej23num2 > ej23num3){
-            tmp = ej23num2;
-            ej23num2 = ej23num3;
-            ej23num3 = tmp;
-        }
-        if (ej23num1 > ej23num2){
-            tmp = ej23num1;
-            ej23num1 = ej23num2;
-            ej23num2 = tmp;
-        }
-        System.out.println(ej23num1 + " ," + ej23num2 + " ," + ej23num3);
-        System.out.println(ej23num3 + " ," + ej23num2 + " ," + ej23num1);
 
-
-    }
-}
+}}

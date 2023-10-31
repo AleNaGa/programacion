@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class For {
     public static void main (String[]args) {
         Scanner scan = new Scanner(System.in);
-/*
+
         //8
         System.out.println("\n Ejercicio 8");
         System.out.print("Cuántos ceros quieres?: ");
@@ -20,7 +20,7 @@ public class For {
         System.out.println("\n\n Ejercicio 9");
 
 
-        for (int x = 0; x < numCeros; x++) {
+        for (int i = 0; i < numCeros; i++) {
             System.out.print(1);
         }
         for (int i = 0; i < numCeros - 1; i++) {
@@ -73,7 +73,7 @@ public class For {
         //13
         System.out.println("\n\n Ejercicio 13");
 
-        for (int x = 0; x < numCeros; x++) {
+        for (int i = 0; i < numCeros; i++) {
             System.out.print(1);
         }
         for (int i = 0; i < numCeros - 1; i++) {
@@ -118,6 +118,7 @@ public class For {
                 }
             }
         }
+
         System.out.println("");
         for (int x = 0; x < numCeros; x++) {
             System.out.print(1);
@@ -178,7 +179,7 @@ public class For {
         for (int i=0; i<numEj19;i++){
             System.out.println(numEj19);
         }
-        */
+
 
         //21
         System.out.println("\n\n Ejercicio 21");
