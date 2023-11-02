@@ -78,7 +78,8 @@ public class Boletín6 {
             if (edad2 >= 67) {
                 System.out.println("Está jubilado");
             }
-        } else {
+        }
+        else {
             System.out.println("Es menor de edad");
         }
 
@@ -89,12 +90,14 @@ public class Boletín6 {
         int edad3 = scan.nextInt();
         if (edad3 > 120 || edad3 < 0) {
             System.out.println("edad no válida");
-        } else if (edad3 >= 18) {
+        }
+        else if (edad3 >= 18) {
             System.out.println("Es mayor de edad");
             if (edad3 >= 67) {
                 System.out.println("Está jubilado");
             }
-        } else {
+        }
+        else {
             System.out.println("Es menor de edad");
         }
 
