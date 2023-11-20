@@ -89,25 +89,27 @@ public class SimulacroExamen2011 {
         System.out.println("\n Ejercicio 3");
         System.out.print("Introduzca el tamaño del triángulo: ");
         int n = scan.nextInt();
-        for (int i = 0; i <= n; i++) {
-            System.out.println();
-            for (int j = 0; j <= i; j++) {
-                if (j == 0 || j == i) {
-                    System.out.print("+ ");
-                } else {
-                    System.out.print("* ");
-                }
-            }
-        }
-        for (int i = 1; i <n; i++) {
+        for (int i = 1; i <=n; i++) {
             System.out.println("");
-            for (int j = n - i; j >0; j--) {
-                if (j == 0 || j == i) {
-                    System.out.print("+ ");
-                } else {
+            for (int j = 1; j <=i ; j++) {
+                if (j==1 || j==i){
                     System.out.print("* ");
                 }
+                else{
+                    System.out.print("- ");
+                }
+
             }
         }
+        for (int i = 1; i <= n; i++) {
+            System.out.println("");
+            for (int j = 1; j <= n - i; j++) {
+                if (j==1 || j==i){
+                    System.out.print("* ");
+                }
+                else{
+                    System.out.print("- ");
+                }
+            }
     }
-}
+    }}
