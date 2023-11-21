@@ -82,6 +82,9 @@ public class SimulacroExamen2011 {
                     System.out.println("Ejercicio 4 finalizado");
                     break;
                 }
+                default{
+                System.out.println("vuelva a intentarlo");
+                }
             }
         }while(respuesta!=0);
 
@@ -104,7 +107,7 @@ public class SimulacroExamen2011 {
         for (int i = 1; i <= n; i++) {
             System.out.println("");
             for (int j = 1; j <= n - i; j++) {
-                if (j==1 || j==i){
+                if (j==1 || j==n-i){
                     System.out.print("* ");
                 }
                 else{
