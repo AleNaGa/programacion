@@ -66,9 +66,9 @@ public class ejercicios2211 {
         System.out.println("El numero de pares que hay es: " + (num/2));
         for (int i = 2; i <= num; i+=2) {
             System.out.print(i + ", ");
-
         }
         System.out.println(num/2);
+
     }
 
 }
