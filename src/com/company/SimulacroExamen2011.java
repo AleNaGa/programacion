@@ -5,8 +5,12 @@ import java.util.Scanner;
 public class SimulacroExamen2011 {
     public static void main(String[] agrs) {
         Scanner scan = new Scanner(System.in);
+
+
+        // Examen 20 de Noviembre de 2023
+
         //Ejercicio1
-        /*
+      
         System.out.println("\n Ejercicio 1");
         int genero = 0;
         int clase = 0;
@@ -88,7 +92,7 @@ public class SimulacroExamen2011 {
             }
         }while(respuesta!=0);
 
-         */
+         
         System.out.println("\n Ejercicio 3");
         System.out.print("Introduzca el tamaño del triángulo: ");
         int n = scan.nextInt();
