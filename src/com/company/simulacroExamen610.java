@@ -6,6 +6,8 @@ public class simulacroExamen610 {
     public static void main (String [] args){
         Scanner scan = new Scanner(System.in);
 
+        //Prueba de Examen 6 de Octubre de 2023
+
         System.out.println("EJERCICIO 1");
         /*1Cree un programa que lea los siguientes datos (SOLO LOS SIGUIENTES) de un usuario:
     - Nombre
